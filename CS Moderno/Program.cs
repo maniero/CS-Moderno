@@ -2,6 +2,8 @@
 using System.Drawing;
 using static System.Math;
 using static System.Console;
+using static System.String;
+using static System.ConsoleColor;
 public partial ref struct X { }
 public ref partial struct Y { }
 
@@ -59,8 +61,14 @@ class Program {
             using var f = new Resource();
             //statements
         }
+        WriteLine(Abs(-10));
+        WriteLine(PI);
+        WriteLine(Concat("MVP", "Conf"));
+        WriteLine(Blue);
     }
     public static (string Nome, string SobreNome) GetPessoa() => ("Antonio", "Maniero");
+    private protected void Teste() { }
+    
 }
 
 class Resource : IDisposable {
