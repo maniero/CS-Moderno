@@ -4,6 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <RootNamespace>CS_Moderno</RootNamespace>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
 
 </Project>
